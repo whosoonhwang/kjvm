@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\lib">
+      <UniqueIdentifier>{961c8d78-10c4-4f39-83cb-36e11b566f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\lib\java">
+      <UniqueIdentifier>{0015e20e-8b9c-489f-988c-9f7cd4fde44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\lib\java\lang">
+      <UniqueIdentifier>{e6f99f7a-cfe3-43f6-b280-e21114a2635d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\lib\System">
+      <UniqueIdentifier>{802d9fa4-339e-4e48-8333-bed2767ba7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\lib\System\Runtime">
+      <UniqueIdentifier>{e44642d9-2a4b-4bf2-9fe1-e391c7f49a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\lib\System\Runtime\Native">
+      <UniqueIdentifier>{e4d2e83f-2658-4656-a8f3-697499502e9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClassHeap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecutionEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePathManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GarbageCollector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kjvm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeMethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectHeap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opcodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClassHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutionEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePathManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GarbageCollector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kjvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\jvm_cp.htm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lib\ITest.java">
+      <Filter>Resource Files\lib</Filter>
+    </None>
+    <None Include="lib\ITest2.java">
+      <Filter>Resource Files\lib</Filter>
+    </None>
+    <None Include="lib\ITest3.java">
+      <Filter>Resource Files\lib</Filter>
+    </None>
+    <None Include="lib\ITest4.java">
+      <Filter>Resource Files\lib</Filter>
+    </None>
+    <None Include="lib\JavaTest.java">
+      <Filter>Resource Files\lib</Filter>
+    </None>
+    <None Include="lib\Test.java">
+      <Filter>Resource Files\lib</Filter>
+    </None>
+    <None Include="lib\TestString.java">
+      <Filter>Resource Files\lib</Filter>
+    </None>
+    <None Include="lib\java\lang\Object.java">
+      <Filter>Resource Files\lib\java\lang</Filter>
+    </None>
+    <None Include="lib\java\lang\String.java">
+      <Filter>Resource Files\lib\java\lang</Filter>
+    </None>
+    <None Include="lib\java\lang\StringBuilder.java">
+      <Filter>Resource Files\lib\java\lang</Filter>
+    </None>
+    <None Include="Helper.java">
+      <Filter>Resource Files\lib\System\Runtime\Native</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="kjvm.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

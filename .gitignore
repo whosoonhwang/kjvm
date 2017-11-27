@@ -41,3 +41,5 @@ kjvm/Release
 ipch/
 Debug/
 Release/
+*.opensdf
+*.sdf
